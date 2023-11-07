@@ -1,0 +1,37 @@
+# Ignore Terraform state files
+terraform-azure
+terraform-azure.pub
+*.tfstate
+*.tfstate.backup
+*.tfstate.tfbackup
+*.tfstate.*.backup
+*.tfstate.*.tfbackup
+
+# Ignore .terraform directory
+.terraform/
+
+# Ignore .vscode directory (optional, for Visual Studio Code users)
+.vscode/
+
+# Ignore .idea directory (optional, for IntelliJ IDEA users)
+.idea/
+
+# Ignore .terraform.lock.hcl file
+.terraform.lock.hcl
+
+# Ignore Terraform log files
+terraform.log
+
+# Ignore .terraformrc and terraform.rc files (Terraform CLI configuration files)
+.terraformrc
+terraform.rc
+
+# Ignore .tfvars files containing sensitive data
+*.tfvars
+
+# Ignore override files (example: override.tf, override.tf.json)
+override.tf
+override.tf.json
+
+# Ignore CLI configuration files (example: terraform.d/plugins, terraform.d/plugins/linux_amd64, .terraformrc, terraform.rc)
+terraform.d/
